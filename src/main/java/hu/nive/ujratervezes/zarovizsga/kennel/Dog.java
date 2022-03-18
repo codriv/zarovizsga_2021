@@ -4,8 +4,8 @@ public abstract class Dog {
 
     protected String name;
     protected int happiness;
-    protected int INCREASE_HAPPINESS ;
-    protected int MULTIPLY;
+    protected int increaseHappiness ;
+    protected int multiply;
 
     public Dog(String name) {
         this.name = name;

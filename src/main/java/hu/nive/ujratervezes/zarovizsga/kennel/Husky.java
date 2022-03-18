@@ -4,17 +4,17 @@ public class Husky extends Dog{
 
     public Husky(String name) {
         super(name);
-        INCREASE_HAPPINESS = 4;
-        MULTIPLY = 3;
+        increaseHappiness = 4;
+        multiply = 3;
     }
 
     @Override
     public void feed() {
-        happiness += INCREASE_HAPPINESS;
+        happiness += increaseHappiness;
     }
 
     @Override
     public void play(int hours) {
-        happiness += hours * MULTIPLY;
+        happiness += hours * multiply;
     }
 }
